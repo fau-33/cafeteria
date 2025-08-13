@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+.container-parallax1,
+.container-parallax2,
+.container-parallax3,
+.container-parallax4,
+.container-parallax5 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /* Topo da página */
 .topo {
   width: 100%;
@@ -36,4 +47,22 @@
   text-shadow: 3px 5px 2px #000000;
   letter-spacing: 2px;
   color: #c4a47c;
+}
+
+/* Container Parallax 1 */
+.container-paralax1 {
+  height: 100vh;
+  background-image: url("./img/parallax-imagem1.png");
+}
+
+.container-parallax1 h1 {
+  top: 45%;
+  right: 0;
+  left: 0;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Fraunces", serif;
+  font-size: 100px;
 }
