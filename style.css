@@ -123,3 +123,9 @@
   background-color: #604829;
   color: #fff;
 }
+
+/* Container Parallax 3*/
+.container-parallax3 {
+  height: 50vh;
+  background-image: url("./img/parallax-imagem3.jpg");
+}
