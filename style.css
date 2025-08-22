@@ -50,9 +50,9 @@
 }
 
 /* Container Parallax 1 */
-.container-paralax1 {
-  height: 100vh;
+.container-parallax1 {
   background-image: url("./img/parallax-imagem1.png");
+  height: 100vh;
 }
 
 .container-parallax1 h1 {
@@ -67,39 +67,10 @@
   font-size: 100px;
 }
 
-/* Efeitos container-texto */
-.container-texto {
-  padding: 80px 0;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 34px;
-  letter-spacing: 1px;
-  text-align: center;
-  color: #666;
-}
-
-.container-texto h2 {
-  margin-bottom: 30px;
-  font-size: 24px;
-  letter-spacing: 2px;
-  font-family: "Oswald", sans-serif;
-  color: #c4a47c;
-}
-
-.container-texto p {
-  max-width: 1024px;
-  padding: 0 20px;
-  margin: 0 auto;
-  font-family: "Lato", sans-serif;
-  line-height: 34px;
-  letter-spacing: 1px;
-  color: #666;
-}
-
 /* Container Parallax 2 */
 .container-parallax2 {
-  height: 50vh;
   background-image: url("./img/parallax-imagem2.jpg");
+  height: 50vh;
 }
 
 .container-parallax2 h3,
@@ -126,13 +97,13 @@
 
 /* Container Parallax 3*/
 .container-parallax3 {
-  height: 50vh;
   background-image: url("./img/parallax-imagem3.jpg");
+  height: 50vh;
 }
 
 /* Container Parallax 4 */
 .container-parallax4 {
-  background-image: url("./img/parallax-imagem4.jpg");
+  background-image: url("./img/parallax-imagem4.png");
   height: 100vh;
 }
 
@@ -181,10 +152,40 @@
   text-align: center;
 }
 
+/* Efeitos  container-texto */
+
+.container-texto {
+  padding: 80px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #666;
+}
+
+.container-texto h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+  color: #c4a47c;
+}
+
+.container-texto p {
+  max-width: 1024px;
+  padding: 0px 20px;
+  margin: 0 auto;
+  font-family: "Lato", "sans-serif";
+  line-height: 34px;
+  letter-spacing: 1px;
+  color: #666;
+}
+
 /* Container Parallax 5 */
 .container-parallax5 {
-  background-image: url("./img/cafeteria.jpg");
   height: 80vh;
+  background-image: url("./img/cafeteria.jpg");
 }
 
 .container-parallax5 h2 {
@@ -277,4 +278,29 @@
   background-size: cover;
   background-color: #c4a47c;
   border-radius: 4px;
+}
+
+/* Responsividade */
+
+@media (max-height: 768px) {
+  .topo img {
+    width: 70px;
+    top: 0;
+  }
+
+  .topo div {
+    top: 30%;
+  }
+
+  .container-parallax4 iframe {
+    height: 300px;
+  }
+
+  .container-parallax5 h2 {
+    top: 20%;
+  }
+
+  .lista-horarios {
+    bottom: 5%;
+  }
 }
