@@ -66,3 +66,60 @@
   font-family: "Fraunces", serif;
   font-size: 100px;
 }
+
+/* Efeitos container-texto */
+.container-texto {
+  padding: 80px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #666;
+}
+
+.container-texto h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+  color: #c4a47c;
+}
+
+.container-texto p {
+  max-width: 1024px;
+  padding: 0 20px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  line-height: 34px;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+/* Container Parallax 2 */
+.container-parallax2 {
+  height: 50vh;
+  background-image: url("./img/parallax-imagem2.jpg");
+}
+
+.container-parallax2 h3,
+.container-parallax3 h3 {
+  width: 500px;
+  padding: 10px;
+
+  position: relative;
+  top: 45%;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Fraunces", sans-serif;
+  text-align: center;
+
+  letter-spacing: 2px;
+  background-color: #604829;
+  color: #fff;
+}
